@@ -2,7 +2,7 @@
 <?php
 $mlx = 0;
 
-while ($mlx < 1001)
+while ($mlx < 1000)
 {
 	echo "X";
 	$mlx++;

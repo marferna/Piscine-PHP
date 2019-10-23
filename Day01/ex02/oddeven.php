@@ -1,12 +1,12 @@
 #!/usr/bin/php
 <?php
-echo "Entrez un nombre: ";
-
-$nbr = fgets(STDIN);
-$nbr = trim($nbr);
-
-if (feof(STDIN) === FALSE)
+while (1)
 {
+	echo "Entrez un nombre: ";
+
+	$nbr = fgets(STDIN);
+	$nbr = trim($nbr);
+
 	if (is_numeric($nbr))
 	{
 		if ($nbr % 2 == 1)
@@ -17,7 +17,7 @@ if (feof(STDIN) === FALSE)
 	else
 		echo "'$nbr' n'est pas un chiffre";
 	echo "\n";
+	if (feof(STDIN) === TRUE)
+		exit ("\n");
 }
-if (feof(STDIN) === TRUE)
-	echo "^D\n";
 ?>
