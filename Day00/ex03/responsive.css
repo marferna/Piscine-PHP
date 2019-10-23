@@ -1,0 +1,80 @@
+H1 {
+	text-align: center;
+	color: white;
+	font-family: "/Users/marferna/Documents/Dossier/Ressources_perso/Breaking-Bad", Arial, Helvetica;
+	font-size: 3vw;
+}
+@font-face {
+	font-family: "/Users/marferna/Documents/Dossier/Ressources_perso/Breaking-Bad";
+	src: url('/Users/marferna/Documents/Dossier/Ressources_perso/Breaking-Bad.ttf');
+}
+BODY {
+	background-size: 100%;
+	background-repeat: repeat;
+	background-image: url("https://www.presse-citron.net/wordpress_prod/wp-content/uploads/2019/02/netflix-breaking-bad.jpg");
+}
+TD {
+	border: 2px solid white;
+	text-align: center;
+	color: white;
+	font-family: Helvetica, Arial;
+	width: 5%;
+	height: 70%;
+	padding: 3px;
+}
+TABLE {
+	border-collapse: collapse;
+	width: 90%;
+	margin: auto;
+	height: auto;
+}
+P {
+	margin: 0%;
+}
+.poids {
+	text-align: right;
+	margin-right: 3px;
+	font-size: 1vw;
+}
+.elem {
+	text-align: center;
+	font-family: Helvetica, Arial;
+	font-weight: bold;
+	font-size: 2vw;
+}
+.num {
+	text-align: left;
+	vertical-align: bottom;
+	margin-left: 3px;
+	font-size: 1vw;
+}
+.tab {
+	border: none;
+}
+.color1 {
+	background-color: #69ad85;
+}
+.color2 {
+	background-color: #56a673;
+}
+.color3 {
+	background-color: #4ea068;
+}
+.color4 {
+	background-color: #429a5d;
+}
+.color5 {
+	background-color: #398f50;
+}
+.color6 {
+	background-color: #2f8444;
+}
+.color7 {
+	background-color: #2a7938;
+}
+.color8 {
+	background-color: #296c30;
+}
+.color9 {
+	background-color: #236025;
+}

@@ -1,0 +1,130 @@
+H1 {
+	font-family: Helvetica, Arial;
+	font-size: 2vw;
+	color: white;
+	left: 27vw;
+	top: 2.2vw;
+	position: fixed;
+}
+H2 {
+	font-family: Helvetica, Arial;
+	font-size: 1.7vw;
+	color: white;
+	text-align: center;
+	text-decoration: underline overline white;
+}
+H3 {
+	font-family: Helvetica, Arial;
+	font-size: 1vw;
+	color: white;
+	text-align: center;
+}
+P {
+	font-family: Helvetica, Arial;
+	font-size: 1.2vw;
+	color: #686e71;
+	left: 27vw;
+	top: 11.5vw;
+	position: absolute;
+}
+.entete {
+	background-color: #686e71;
+	height: 10vw;
+	width: 100vw;
+	top: 0vw;
+	left: 0vw;
+	z-index: 1;
+	position: fixed;
+}
+.sncf {
+	width: 10vw;
+	top: 2.2vw;
+	left: 0vw;
+	position: relative;
+}
+.first {
+	background-color: #c21859;
+	border-radius: 10px;
+	height: 74vw;
+	width: 21vw;
+	top: 17vw;
+	left: 10vw;
+	position: absolute;
+}
+.second {
+	background-color: #c21859;
+	border-radius: 10px;
+	height: 74vw;
+	width: 21vw;
+	top: 17vw;
+	left: 40vw;
+	position: absolute;
+}
+.third {
+	background-color: #c21859;
+	border-radius: 10px;
+	height: 74vw;
+	width: 21vw;
+	top: 17vw;
+	left: 70vw;
+	position: absolute;
+}
+.plat {
+	width: 18.8vw;
+	height: 10.5vw;
+	margin-left: 1vw;
+}
+/* Menu déroulant */
+UL {
+	position: fixed;
+	top: 6.7vw;
+	text-align: center;
+	width: 100%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #686e71;
+}
+LI {
+	display: inline-block;
+	text-align: center;
+	padding: 10px 10px;
+	text-decoration: none;
+	display: inline-block;
+}
+A {
+	display: inline-block;
+	text-align: center;
+	padding: 10px 10px;
+	text-decoration: none;
+	display: block;
+	color: black;
+}
+A:hover {
+	background-color: #c21859;
+}
+.accueil {
+	background-color: #c21859;
+	font-family: Helvetica, Arial;
+	font-size: 1vw;
+	color: white;
+}
+.selection:hover .liste {
+	display: block;
+}
+.titre {
+	font-family: Helvetica, Arial;
+	font-size: 1vw;
+	color: white;
+}
+.liste {
+	font-family: Helvetica, Arial;
+	font-size: 0.7vw;
+	display: none;
+	position: fixed;
+	background-color: white;
+	box-shadow: 5px 5px 5px #686e71;
+	text-decoration: none;
+	text-align: center;
+}
