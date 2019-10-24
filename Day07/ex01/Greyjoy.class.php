@@ -1,5 +1,6 @@
 <?php
-require_once('test1.php');
-
-
+class Greyjoy
+{
+	protected $familyMotto = "We do not sow";
+}
 ?>
