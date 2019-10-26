@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		 <!-- En-tête de la page -->
+		<title>Balloon</title>
+		<meta charset="utf-8"/>
+		<script type="text/javascript"></script>
+		<style>
+			#balloon {
+				height: 200px;
+				width: 200px;
+				background-color: red;
+				border-radius: 50%;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- Corps de la page -->
+		<script language="javascript"></script>
+		<div id="balloon" onclick="changecolor();"></div>
+		<script>
+			var element = document.getElementById('balloon');
+
+			function changecolor()
+			{
+				if (element.style.backgroundColor == 'red' || element.style.backgroundColor != 'blue' && element.style.backgroundColor != 'green')
+					element.style.backgroundColor = 'green';
+				else if (element.style.backgroundColor == 'green')
+					element.style.backgroundColor = 'blue';
+				else if (element.style.backgroundColor == 'blue')
+					element.style.backgroundColor = 'red';
+				if (element.offsetHeight < 415)
+				{
+					element.style.height = element.offsetHeight + 10 + "px";
+					element.style.width = element.offsetWidth + 10 + "px";
+				}
+				else if (element.offsetHeight >= 415)
+				{
+					element.style.height = 200 + "px";
+					element.style.width = 200 + "px";
+				}
+			}
+			element.addEventListener('mouseleave', event => {
+				if (element.offsetHeight > 200)
+				{
+					element.style.height = element.offsetHeight - 5 + "px";
+					element.style.width = element.offsetWidth - 5 + "px";
+				}
+				if (element.style.backgroundColor == 'red' || element.style.backgroundColor != 'blue' && element.style.backgroundColor != 'green')
+					element.style.backgroundColor = 'blue';
+				else if (element.style.backgroundColor == 'green')
+					element.style.backgroundColor = 'red';
+				else if (element.style.backgroundColor == 'blue')
+					element.style.backgroundColor = 'green';
+			});
+		</script>
+	</body>
+</html>
